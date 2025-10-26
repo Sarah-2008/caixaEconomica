@@ -64,12 +64,13 @@ header{
     margin-right: 50px;
 }
 
-#busca{
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-    padding: 5px;
+#busca {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  width: 230px;
+  height: 35px;
+  border-bottom: 1px solid white;
 }
 
 #inputBusca{
@@ -79,7 +80,7 @@ header{
     outline: none;
     font-size: 16px;
     padding: 5px;
-    background-color: #005CA9;
+    background-color: transparent;
 }
 
 input::placeholder {
