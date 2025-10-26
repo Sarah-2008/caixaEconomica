@@ -19,6 +19,7 @@ header{
 
 /* Lado esquerdo do site */
 
+/* essa parte é responsvavel por deixar tudo alinhado à esquerda */
 #ladoEsquerdo {
   display: flex;
   gap: 20px;
@@ -54,3 +55,32 @@ header{
     text-decoration: underline;
 }
 
+/* Lado direito do site */
+
+#ladoDireito{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+#busca{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}   
+
+#cadastro{
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    color: #005CA9;
+    border: #005CA9;
+}
+
+#cadastro:hover{
+    text-decoration: underline;
+}
