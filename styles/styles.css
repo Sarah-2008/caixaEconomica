@@ -8,7 +8,7 @@
 /* Parte de cima do site */
 
 header{
-    background-color: #0088ff;
+    background-color: #005CA9;
     color: white;
     display: flex;
     height: 100px;
@@ -17,14 +17,32 @@ header{
     padding: 10px 20px;
 }
 
-#links{
-    display: flex;
-    gap: 20px;
-    font-weight: bold;
+/* Lado esquerdo do site */
+
+#ladoEsquerdo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.imagem{
-    height: 80px;
+#links{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 30px;
+  margin-left: 25px;
+}
+
+#logo{
+    margin-left: 50px;
+    height: 50px;
+    width: auto;
+}
+
+#menu{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 .link{
