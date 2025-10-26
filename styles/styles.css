@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/* Parte de cima do site */
+
+header{
+    background-color: #0088ff;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#links{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.imagem{
+    height: 80px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
