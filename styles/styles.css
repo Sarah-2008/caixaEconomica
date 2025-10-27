@@ -19,6 +19,7 @@ header{
     align-items: center;
     padding: 10px 20px;
     width: 100%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Lado esquerdo do site */
@@ -61,6 +62,13 @@ header{
     width: 30px;
     height: 30px;
     cursor: pointer;
+    color: white;
+}
+
+.texto{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .link{
@@ -98,6 +106,7 @@ header{
     font-size: 16px;
     padding: 5px;
     background-color: transparent;
+    color: white;
 }
 
 input::placeholder {
