@@ -141,7 +141,25 @@ main{
     background-repeat: no-repeat;
     background-position: top;
     align-items: center;
-    color: white;
-    margin-right: 50px;
 }
 
+#bannerTexto{
+    margin: 100px;
+    font-size: large;
+}
+
+#titulo{
+    color: rgb(251, 251, 178);
+    letter-spacing: 1px;
+}
+
+#subtitulo{
+    color: white;
+    letter-spacing: 1px;
+}
+
+#descricao{
+    color: white;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
