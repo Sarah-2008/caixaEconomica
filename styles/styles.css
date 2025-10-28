@@ -162,3 +162,22 @@ main{
     color: white;
     padding: 50px 0px;
 }
+
+#butaoBanner{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+
+}
+
+#butaoBanner:hover{
+    color: #005CA9;
+    background-color: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
