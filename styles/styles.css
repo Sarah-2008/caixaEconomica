@@ -63,7 +63,7 @@ header{
     cursor: pointer;
     color: white;
     position: absolute;
-    top: 60px
+    margin: 30px;
 }
 
 .texto{
@@ -72,6 +72,11 @@ header{
     font-weight: bold;
     white-space: nowrap;
     /* Impede a quebra da linha */
+    letter-spacing: 1px;
+}
+
+.texto:hover{
+    text-decoration: underline;
 }
 
 .link{
