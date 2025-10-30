@@ -19,7 +19,7 @@ header{
     align-items: center;
     padding: 10px 20px;
     width: 100%;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 4px rgb(1, 1, 0);
 }
 
 /* Lado esquerdo do site */
@@ -58,12 +58,11 @@ header{
 }
 
 #menu{
-    width: 30px;
-    height: 30px;
     cursor: pointer;
     color: white;
     position: absolute;
     margin: 30px;
+    padding: 5px 5px;
 }
 
 .texto{
@@ -129,14 +128,13 @@ input::placeholder {
     color: #005CA9;
     border: #005CA9;
     border-radius: 5px;
-    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 4px rgb(1, 1, 0);
 }
 
 #cadastro:hover{
     text-decoration: underline;
     background-color: #005CA9;
     color: white;
-    background-image: url(../image/cadeado2.svg);
 }
 
 /* Parte de baixo do site */
@@ -182,13 +180,14 @@ main{
     border-radius: 4px;
     color: white;
     font-size: 16px;
+    box-shadow: 2px 2px 4px rgb(1, 1, 0);
 
 }
 
 #butaoBanner:hover{
     color: #005CA9;
     background-color: white;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 4px rgb(1, 1, 0);
 }
 
 /* Parte embaixo do banner */
