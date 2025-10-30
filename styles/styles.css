@@ -62,12 +62,16 @@ header{
     height: 30px;
     cursor: pointer;
     color: white;
+    position: absolute;
+    top: 60px
 }
 
 .texto{
     color: white;
     font-size: 14px;
     font-weight: bold;
+    white-space: nowrap;
+    /* Impede a quebra da linha */
 }
 
 .link{
@@ -181,6 +185,10 @@ main{
     background-color: white;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* Parte embaixo do banner */
+
+
 
  /* Footer */
  
