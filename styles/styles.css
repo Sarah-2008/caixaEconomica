@@ -124,7 +124,6 @@ input::placeholder {
     justify-content: center;
     padding: 10px;
     gap: 4px;
-
     background-color: white;
     cursor: pointer;
     color: #005CA9;
@@ -140,6 +139,7 @@ input::placeholder {
 #cadastro:hover{
     #cadeado6{
         display: flex;
+        padding: 2px 2px;
     }
     #cadeado{
         display: none;
@@ -147,20 +147,31 @@ input::placeholder {
     text-decoration: underline;
     background-color: #005CA9;
     color: white;
-
 }
 
 /* Parte de baixo do site */
 
-main{
+/* main{
     display: flex;
     width: 100%;
-    height: 600vh;
+    height: 100vh;
     background-image: url(../image/cartao.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
     align-items: center;
+} */
+
+#banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/cartao.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    align-items: center;
+    align-items: flex-start;
 }
 
 #bannerTexto{
@@ -194,7 +205,6 @@ main{
     color: white;
     font-size: 16px;
     box-shadow: 2px 2px 4px rgb(1, 1, 0);
-
 }
 
 #butaoBanner:hover{
@@ -205,7 +215,41 @@ main{
 
 /* Parte embaixo do banner */
 
+#acessosRapidos {
+    /* Faz o título e as caixas ficarem em coluna */
+    /* flex-direction: column;  */
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
 
+#tituloAcessos{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin: 0;
+    color: #005CA9;
+    justify-content: end;
+}
+
+.pai{
+    width: 800px;
+    height: 400px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.acessos{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(61, 182, 135);
+}
 
  /* Footer */
  
